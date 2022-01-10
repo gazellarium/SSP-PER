@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Regular.eot');
+    src: url('Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Regular.woff2') format('woff2'),
+         url('Vazir-Regular.woff') format('woff'),
+         url('Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Bold.woff2') format('woff2'),
+         url('Vazir-Bold.woff') format('woff'),
+         url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@media screen and (min-width: 800px) {
+    body {
+    margin: 20% 10px;}
+    
+body {
+    color: black;
+    background-color:#F5F5F5;
+    margin: 12% auto;
+    
+    
+}
+.lindent { margin-left: 5em; }
+.sending-results {
+    font-weight: bold;
+    font-size: medium;
+}
+div.bar-container {
+    border: 1px solid;
+    border-color: #9ea4b1;
+    background-color: white;
+}
+div.bar {
+    background-color: white;
+}
+p.progress-text {
+    padding-top: 0.5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-style: italic;
+    font-size: small;
+}
+p.practice-box {
+    color: blue;
+    height: 1.5em;
+    padding-bottom: 1em;
+    font-size: small;
+    text-align: center;
+}
+span.retry {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+span.retry:hover {
+    text-decoration: underline;
+}
+span.retry:visited {
+    color: blue;
+}
+    
+}

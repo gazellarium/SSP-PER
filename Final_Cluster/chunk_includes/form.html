@@ -1,0 +1,123 @@
+<head>
+
+
+<style>
+
+  body {
+    color: black;
+    width:80vw;
+    margin:10px auto
+
+  }
+
+   div{
+     direction: rtl;
+     font-family: 'Vazir';
+     padding: 5px;
+	   text-align:justify;
+   }
+   p{
+     text-align: center;
+     font-size: 18px;
+   }
+   tr{
+   height:1em;
+   }
+
+ #form {
+     font-size:20px;
+     padding: 2px;
+     margin-top: 1em;
+     margin-bottom: 0.2em;
+       }
+ </style>
+</head>
+
+<body>
+<div>
+  <p>
+    لطفا به تمام موارد پاسخ دهید. <br>
+    لازم است به منظور سهولت در تحلیل نتایج اطلاعات فردی خود را با حروف انگلیسی وارد کنید
+  </p>
+   <table id="form">
+<tr>
+
+<tr>
+  <td>سن:</td><td><input name="age" type="text" size="5" class="obligatory" /></td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="age"></label></td>
+</tr>
+
+<tr>
+  <td>جنسیت:</td><td><input name="gender" type="radio" value="male" class="obligatory" id="csexmale" /><label for="csexmale">مرد </label>
+                   <input name="gender" type="radio" value="female" id="csexfemale"/><label for="csexfemale"> زن</label> </td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="sex"></label></td>
+</tr>
+
+<tr>
+  <td>محل تولد:</td><td><input name="birthplace" type="text" size="25" class="obligatory" /></td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="birthplace"></label></td>
+</tr>
+
+<tr>
+  <td>رشته و مدرک تحصیلی:</td><td><input name="degree" type="text" size="25" class="obligatory" /></td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="degree"></label></td>
+</tr>
+
+<tr>
+  <td colspan="2">
+در صورتیکه مدت کوتاهی در معرض گویش‌ها و زبان‌های دیگری به غیر از فارسی بوده اید، نام آن‌ها و چگونگی ارتباط خود با آن‌ها را ذکر کنید. (مثال: ترکی، زندگی در آن شهر- انگلیسی، یادگیری در کلاس)
+ </td>
+ </tr>
+<tr>
+  <td>زبان ها یا گویش های دیگر:</td><td><input name="otherlanguages" type="text" size="45" /></td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="otherlanguages"></label></td>
+</tr>
+
+<tr>
+  <td>نوع هدفون:</td>
+			   <td><input name="headphone" type="radio" value="normal" class="obligatory" id="cnormiehd" /><label for="normiehd"> معمولی </label>
+                   <input name="headphone" type="radio" value="wireless" id="cwirelesshd"/><label for="cwirelesshd"> بی سیم </label>
+				   <input name="headphone" type="radio" value="none" id="cnohd"/><label for="cnohd"> بدون هدفون</label>
+				   </td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="headphone"></label></td>
+</tr>
+
+<tr>
+  <td colspan="2">
+<i> رمز شخصی: به ترتیب دو حرف اول اسم کوچک شما + سن + حرف اول محل تولد  </i>
+ </td>
+ </tr>
+<tr>
+ <td colspan="2">   (مثال زهرا ۲۳ تهران - za23t)  </td>
+</tr>
+<tr>
+  <td>رمز شخصی:</td><td><input name="personal_code" type="text" size="30" class="obligatory" /></td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="personal_code"></label></td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-bottom: 1em;"><input type="checkbox" class="obligatory" name="consent" id="consentcx" /><label for="consentcx"> من با رضایت کامل در این پرسشنامه شرکت می‌کنم.</label></td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="consent"></label>
+</td>
+</tr>
+</table>
+
+</div>
+</body>
